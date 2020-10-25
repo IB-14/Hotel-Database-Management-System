@@ -1,0 +1,40 @@
+.dropdown {
+  float: right;
+}
+
+.dropbutton{
+  text-decoration: none;
+}
+
+.dropdown .dropbutton {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+
+.dropdownmenu{
+  float: right;
+  display: none;
+  background-color: #f9f9f9;
+  
+}
+
+.dropdownmenu a {
+  float: none;
+  color: black;
+  padding: 5px 20px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdownmenu a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdownmenu {
+  display: block;
+}
